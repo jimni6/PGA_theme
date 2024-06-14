@@ -20,7 +20,7 @@
                 <img src="https://l2mperigueux.fr/cdn/shop/files/384307879_122105887784050955_4974503812036520577_n.jpg" alt="">
             </a>
 			<a href="https://www.mda-electromenager.com/fr" target="_blank">
-                <img src="https://www.mda-electromenager.com/build/mda/images/logo-mda.afd9315e.svg" alt="">
+                <img src="<?= get_parent_theme_file_uri( 'assets/sponsors/logo-mda.png' )?>" alt="">
             </a>
 			<a href="http://www.atlantis-informatic.com/" target="_blank">
                 <img src="<?= get_parent_theme_file_uri( 'assets/sponsors/logo-atlantis.jpeg' )?>" alt="">
