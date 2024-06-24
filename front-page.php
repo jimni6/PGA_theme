@@ -11,6 +11,9 @@
         <img src="<?= get_parent_theme_file_uri( 'assets/PGA-GRANDE-AFFICHE--2024.jpg' )?>" alt="Affiche de l'évènement PGA 2024">
     </div>
     <h2>La 5ème édition sera le 6 et 7 Juillet au parc des expositions du périgord</h2>
+    <div class="heroSectionImg">
+        <img src="<?= get_parent_theme_file_uri( 'assets/plan_2024.png' )?>" alt="Plan PGA 2024">
+    </div>
     <div class="instagram-feed">
         <?php echo do_shortcode('[instagram-feed feed=1]'); ?>
     </div>
