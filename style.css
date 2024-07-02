@@ -485,6 +485,39 @@ a:-webkit-any-link {
     gap: 10px;
 }
 
+.planningContainer {
+    margin-top: 15px;
+    border: 1px solid #0e2431;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.planning {
+    border-collapse: collapse;
+}
+
+.h2planning {
+    margin: 0;
+    padding: 20px;
+    background-color: #6f569ecd;
+    /* overflow: hidden; */
+}
+
+.planning th {
+    padding: 5px;
+}
+
+.planning td {
+    padding: 5px;
+    text-align: center;
+}
+
+.planning tr:nth-child(even) {
+    background-color: #81729ccd;
+}
+
+
+
 @keyframes slide-left {
     0% {
         transform: translateX(200px);
